@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Top"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="219dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="35dp"
+        android:text="ВСЕ ПРОДУКТЫ"
+        app:layout_constraintBottom_toTopOf="@+id/ovoch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="249dp"
+        android:layout_marginEnd="28dp"
+        android:onClick="Procged"
+        android:text="Прочая еда "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/fruct" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="263dp"
+        android:layout_marginEnd="26dp"
+        android:onClick="Bluda"
+        android:text="Блюда"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/riba"
+        app:layout_constraintTop_toBottomOf="@+id/ovoch" />
+
+    <Button
+        android:id="@+id/Myaso"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="16dp"
+        android:onClick="Myaso"
+        android:text="Мясо"
+        app:layout_constraintBottom_toTopOf="@+id/riba"
+        app:layout_constraintEnd_toStartOf="@+id/ovoch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/fruct"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="119dp"
+        android:onClick="Fruct"
+        android:text="Фрукты "
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ovoch"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/riba"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="199dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginStart="16dp"
+        android:onClick="Riba"
+        android:text="Рыба"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Myaso" />
+
+    <Button
+        android:id="@+id/ovoch"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="39dp"
+        android:onClick="Ovoch"
+        android:text="Овощи"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toStartOf="@+id/fruct"
+        app:layout_constraintStart_toEndOf="@+id/Myaso"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:layout_marginStart="37dp"
+        android:onClick="newScreen"
+        android:text="Назад "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riba" />
+</android.support.constraint.ConstraintLayout>

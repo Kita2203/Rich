@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rich</string>
+    <string name="first_screen">First Screen</string>
+    <string name="second_screen">Second Screen</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="btn_text">Go!</string>
+    <string name="Data">Дата</string>
+
+</resources>
